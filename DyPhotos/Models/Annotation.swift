@@ -13,6 +13,7 @@ class Annotation: NSObject, MKAnnotation {
 
     //si anying cokolate
     //cokolate susu krim, dibekuin
+    //ya gitu deh, coklat, coklat, coklat, pake susu krim yang betul
     
     var photo: PhotoAroundLocation
     init(photo: PhotoAroundLocation) {
