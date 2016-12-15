@@ -12,6 +12,7 @@ import MapKit
 class Annotation: NSObject, MKAnnotation {
 
     //si anying cokolate
+    //cokolate susu krim, dibekuin
     
     var photo: PhotoAroundLocation
     init(photo: PhotoAroundLocation) {
