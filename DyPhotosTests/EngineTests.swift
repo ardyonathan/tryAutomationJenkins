@@ -59,8 +59,7 @@ class EngineTests: XCTestCase {
             XCTAssertTrue(photos.count > 0)
             
             /**
-             kan kesel, si anying coklat part dua yeh aduh hese nya jenkins teh
-             teu kuat
+            urg kudu bisa euyyyy, semangkaaaa
             */
         }
         
