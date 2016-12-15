@@ -47,22 +47,22 @@ class EngineTests: XCTestCase {
         }
     }
     
-    func testMapPhotos() {
-        
-        measureBlock { 
-            let url = NSBundle(forClass: self.dynamicType).URLForResource("ValidJson", withExtension: "json")!
-            let data = NSData(contentsOfURL: url)
-            let json = try! NSJSONSerialization.JSONObjectWithData(data!, options: []) as! [String: AnyObject]
-            
-            let photos = Engine.shared.mapPhotos(from: json)
-            
-            XCTAssertTrue(photos.count > 0)
-            
-            /**
-            urg kudu bisa euyyyy, semangkaaaa akmf;dasdfadsjf;
-            */
-        }
-        
-    }
+//    func testMapPhotos() {
+//        
+//        measureBlock { 
+//            let url = NSBundle(forClass: self.dynamicType).URLForResource("ValidJson", withExtension: "json")!
+//            let data = NSData(contentsOfURL: url)
+//            let json = try! NSJSONSerialization.JSONObjectWithData(data!, options: []) as! [String: AnyObject]
+//            
+//            let photos = Engine.shared.mapPhotos(from: json)
+//            
+//            XCTAssertTrue(photos.count > 0)
+//            
+//            /**
+//            urg kudu bisa euyyyy, semangkaaaa akmf;dasdfadsjf;
+//            */
+//        }
+//        
+//    }
     
 }

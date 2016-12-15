@@ -11,6 +11,8 @@ import MapKit
 
 class Annotation: NSObject, MKAnnotation {
 
+    //si anying cokolate
+    
     var photo: PhotoAroundLocation
     init(photo: PhotoAroundLocation) {
         self.photo = photo
